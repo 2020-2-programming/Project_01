@@ -1,19 +1,13 @@
 package myInterface;
 
-
 /**
- * Write a description of interface Shape here.
+ * Shape 인터페이스
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2019315011 조은채)
+ * @version (2020.09.16)
  */
 public interface Shape
 {
-    /**
-     * An example of a method header - replace this comment with your own
-     *
-     * @param  y a sample parameter for a method
-     * @return   the result produced by sampleMethod
-     */
-    int sampleMethod(int y);
+    public final double PI = 3.14;
+    public abstract double getArea();
 }

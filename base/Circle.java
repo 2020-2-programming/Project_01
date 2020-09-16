@@ -1,11 +1,10 @@
 package base;
 
-
 /**
  * Write a description of class Circle here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2019315011 조은채)
+ * @version (2020.09.16)
  */
 public class Circle
 {
