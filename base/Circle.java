@@ -1,23 +1,25 @@
 package base;
 
 /**
- * Write a description of class Circle here.
+ * Circle 클래스
  *
  * @author (2019315011 조은채)
  * @version (2020.09.16)
  */
 public class Circle
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private int x; // 원의 x좌표
+    private int y; // 원의 y좌표
+    private int radius; // 원의 반지름
+    
     /**
      * Constructor for objects of class Circle
      */
     public Circle()
     {
-        // initialise instance variables
-        x = 0;
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
     }
 
     /**
@@ -26,9 +28,8 @@ public class Circle
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public boolean equals()
     {
-        // put your code here
-        return x + y;
+        if 
     }
 }
