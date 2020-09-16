@@ -23,13 +23,17 @@ public class Circle
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * 같은 원인지 아닌지 판단하는 메소드
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param  obj  Circle 메소드에서 만든 객체
+     * @return    true or false
      */
-    public boolean equals()
+    public boolean equals(Object obj)
     {
-        if 
+        Circle c = (Circle)obj;
+        if((this.x == c.x) && (this.y == c.y))
+            return true;
+        else
+            return false;
     }
 }
